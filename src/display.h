@@ -3,9 +3,9 @@
 
 #include "chip8.h"
 
-int init_display(void);
-void render_display(Chip8 *chip8);
-void close_display(void);
-void handle_input(Chip8 *chip8);
+void display_init(void);
+void display_render(Chip8 *chip);
+void display_clear(void);
+void display_close(void);
 
 #endif
